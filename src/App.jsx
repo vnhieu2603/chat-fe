@@ -40,7 +40,7 @@ function App() {
         />
         <Route
           path="/login"
-          element={!authUser ? <SignUp /> : <Navigate to="/" />}
+          element={!authUser ? <Login /> : <Navigate to="/" />}
         />
         <Route path="/settings" element={<Settings />} />
         <Route
